@@ -1,0 +1,9 @@
+(1) phastcons_score_prep.py
+wigfixファイルから、BEDファイルに変換する。
+↓
+(2) phastcons_sizedown.py
+miRBase_v21とRefSeqのTranscriptsがコードされる領域のみのConservationに関するDBファイルを用意する（元のBEDファイルは大きいのでサイズダウンするため）。
+また、DBファイルは各染色体ごとに分かれておりディクショナリ型のデータ型になっている。
+↓
+(3) phastcons_scores_list.py
+「NM_」からなるアクセッション番号に対してリスト型で1bpからのConservationが記載されている（3'UTRのみ）。
