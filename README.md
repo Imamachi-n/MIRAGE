@@ -6,7 +6,7 @@ Python-3.x
 ViennaRNA  
 PyYAML  
 
-For Ubuntu,
+For Ubuntu,  
 **ViennaRNA installation**
 ```
 sudo apt-add-repository ppa:j-4/vienna-rna
@@ -22,7 +22,7 @@ cd PyYAML-3.11
 sudo python3 setup.py install
 ```
 
-**Download Conservation Score file**
+**Download Conservation Score file**  
 (1)Wigfix files (e.g.chr1.phyloP46way.wigFix.gz) are downloaded from the above HTML.  
 ```
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/phastCons46way/vertebrate/
