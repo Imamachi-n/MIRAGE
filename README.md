@@ -16,6 +16,7 @@ sudo apt-get install vienna-rna
 
 **PyYAML installation**
 ```
+sudo apt-get install libyaml-dev
 wget http://pyyaml.org/download/pyyaml/PyYAML-3.11.tar.gz
 tar zxvf PyYAML-3.11.tar.gz
 cd PyYAML-3.11
@@ -23,7 +24,7 @@ sudo python3 setup.py install
 ```
 
 **Download Conservation Score file**  
-(1)Wigfix files (e.g.chr1.phyloP46way.wigFix.gz) are downloaded from the above HTML.  
+(1)Wigfix files (e.g.chr1.phyloP46way.wigFix.gz) are downloaded from the following HTML.  
 ```
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/phastCons46way/vertebrate/
 http://hgdownload.soe.ucsc.edu/goldenPath/hg19/phyloP46way/vertebrate/
